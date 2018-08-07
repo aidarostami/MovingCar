@@ -1,0 +1,59 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff fixed;
+}
+
+#skrollr-wrapper {
+  width:100%;
+  height:100%;
+  position:fixed;
+  overflow: hidden;
+}
+
+#skrollr-wrapper div {
+  position: absolute;
+  overflow: hidden;
+  text-align: center;
+}
+
+#background {
+  background: url(building2.svg);
+  background-color: #dce3f5;
+  background-size: 400px;
+  background-repeat-y: no-repeat;
+  margin: auto;
+  top: 0; left: 0; right: 0;  bottom: 0;
+  height: 500px;
+  width:300%;
+}
+
+#car{
+ background-repeat: no-repeat;
+ height: 200px;
+ margin-top: 50px;
+ top: 43%;
+ left: -10%;
+}
+#car img {
+  width:100%;
+}
+
+#scroll-me-forward {
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  padding:30px;
+  top: 40%;
+  left: 10%;
+  }
+
+  #scroll-me-back {
+  border-radius: 50%;
+  background: white;
+  position: absolute;
+  padding:30px;
+  top: 40%;
+  right: 10%;
+  }
